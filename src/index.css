@@ -1,0 +1,474 @@
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.all-link {
+  margin-right: 5%;
+}
+a {
+  text-decoration: none;
+}
+
+#link {
+  text-transform: capitalize;
+  color: #fffffe;
+  font-weight: bold;
+  justify-content: space-between;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#link:hover {
+  color: #ff8906;
+  font-size: 1.2rem;
+}
+
+.navigation {
+  background: #0f0e17 !important;
+}
+.navbar-toggler {
+  background-color: #ff8906;
+}
+
+.home-text {
+  font-size: 2.5rem;
+  color: #fff !important;
+  display: block;
+  line-height: 2;
+  padding-bottom: 5%;
+}
+.homeImg {
+  max-height: 100%;
+}
+.home-text h1 > span {
+  color: #fffffe;
+  background: rgba(10, 10, 10, 0.3);
+  border-radius: 4px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+.home-text p {
+  color: #a7a9be !important;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+#first-text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+#second-text {
+  font-size: 1.9rem;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-home {
+  background-color: #ff8906;
+  color: #fffffe;
+  border-color: #ff8906;
+  font-weight: bold;
+  margin-top: 50px;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 1.5rem;
+}
+.btn-home:hover {
+  background-color: #a7a9be;
+  border: 1px solid #ff8906;
+}
+.btn-home a:link {
+  text-decoration: none;
+}
+
+/* styling the about page */
+.about-group {
+  margin: 0;
+  padding-top: 40px;
+}
+.about-me {
+  padding-left: 5px;
+}
+.about-me img {
+  border-radius: 50%;
+  width: 40vh;
+  height: 50vh;
+  padding-top: 15px;
+}
+
+.aboutimgcard {
+  background-color: #0f0e17;
+  border-radius: 50%;
+  margin: auto;
+}
+.myjob {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 10px;
+  font-size: 1.4rem;
+  color: #e53170;
+  font-weight: bold;
+}
+
+.lines {
+  border-left: 6px solid #2e2f3e;
+  height: 400px;
+}
+.about-body {
+  background-color: #0f0e17;
+  padding: 10px;
+}
+.about-body h2 {
+  font-weight: bolder;
+  color: #fffffe;
+}
+.myname {
+  color: #e53170;
+}
+
+.about-text {
+  color: #a7a9be;
+  font-size: 1rem;
+  line-height: 2;
+  padding-right: 10px;
+  justify-content: space-evenly;
+}
+.portfolio-main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 4rem;
+}
+.portfolio-main h2 {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  font-weight: bold;
+  color: #fffffe;
+}
+.port-row {
+  margin: 0;
+  padding-bottom: 25px;
+}
+.port-col {
+  background-color: #19191b;
+  margin: 0;
+  opacity: 0.9;
+}
+.port-col:hover {
+  border: 2px solid #0f0e17;
+}
+.portfolio-img {
+  border: 5px solid #a7a9be;
+  width: 16rem;
+  height: 150px;
+  margin: 10px auto 0;
+}
+.portfolio-img:hover {
+  border: 6px solid #a7a9be;
+}
+.btn-new {
+  background-color: #ff8906;
+  border: 2px solid #0f0e17;
+}
+.btn-new:hover {
+  background-color: #0f0e17;
+  border: 2px solid #ff8906;
+}
+
+.btn-port {
+  width: 90%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin: auto;
+  color: #0f0e17;
+}
+.btn-port a {
+  font-weight: lighter;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  color: #fffffe;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* contact styling */
+.contact-head {
+  padding-top: 5%;
+  text-align: center;
+}
+form {
+  padding-top: 5%;
+  padding-right: 30px;
+}
+
+.contact-head h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #0f0e17;
+}
+#form-border:hover {
+  border: 2px solid #2e2f3e;
+}
+
+.contact-btn {
+  background-color: #ff8906;
+  border: 2px solid #0f0e17;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.contact-btn:hover {
+  background-color: #0f0e17;
+  border: 2px solid #ff8906;
+  margin-top: 19px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #0f0e17;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  margin-left: auto;
+}
+.foot {
+  bottom: 0;
+  padding: 0 1rem;
+  display: inline-block;
+}
+.footer a {
+  color: #ff8906;
+}
+
+.copyright p {
+  font-size: 0.8rem;
+  color: #a7a9be;
+}
+.popup-box {
+  position: fixed;
+  top: 20%;
+  width: 40%;
+  height: 60vh;
+  margin-left: 17%;
+}
+.box {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  max-width: 600px;
+  background-color: #ff8906;
+  justify-content: center;
+  margin: auto;
+}
+
+.close-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  background-color: #0f0e17;
+  color: white;
+}
+.pop-details {
+  padding-top: 12%;
+}
+.pop-details a {
+  color: black;
+  font-size: 1em;
+}
+/* Media styling for smaller screens */
+@media only screen and (max-width: 767px) {
+  #link {
+    font-size: 0.8rem;
+  }
+  .navbar-brand {
+    font-size: 1.4rem !important;
+  }
+  .navbar-toggler {
+    padding: 4px;
+  }
+
+  .home-text h1 > span {
+    font-size: 0.4em;
+  }
+  .show {
+    height: 50%;
+  }
+  .home-text {
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.2;
+    background: rgba(10, 10, 10, 0.3);
+    padding-bottom: 30%;
+  }
+  .home-text p {
+    font-size: 0.9rem;
+  }
+  #first-text {
+    font-size: 0.7rem;
+  }
+  #second-text {
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-bottom: 0;
+  }
+  .btn-home {
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: #ff8906;
+    border: 1px solid #a7a9be;
+  }
+  .popup-box {
+    top: 35%;
+  }
+
+  .box {
+    height: 50vh;
+    max-width: 600px;
+  }
+  .pop-details {
+    padding-top: 25%;
+  }
+  .close-icon {
+    top: 12px;
+    right: 12px;
+    font-size: 12px;
+    background-color: #0f0e17;
+    color: white;
+  }
+
+  .row-one {
+    padding-top: 25px;
+    padding-bottom: 0;
+  }
+  .about-me img {
+    width: 30vh;
+    height: 40vh;
+  }
+  .aboutimgcard {
+    width: 18rem !important;
+    height: 20rem !important;
+    background-color: white;
+    border: none;
+  }
+  .about-body {
+    width: 18rem !important;
+    height: 20rem !important;
+  }
+  .about-group {
+    margin: auto !important;
+    padding-bottom: 20% !important;
+    justify-content: center !important;
+  }
+  .abt-content {
+    margin: auto;
+  }
+  .myjob {
+    margin-top: 0;
+  }
+  .footer a {
+    font-size: 7px;
+  }
+  .copyright p {
+    margin-top: 0.3rem;
+    font-size: 0.4rem;
+  }
+  .foot {
+    padding: 0 0.4rem;
+  }
+
+  .contact-form {
+    margin-left: 20px;
+  }
+  .contact-head h2 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 968px) {
+  .home-text {
+    padding-bottom: 8%;
+  }
+  .home-text h1 > span {
+    font-size: 0.7em;
+  }
+  #second-text {
+    font-size: 1.5rem;
+  }
+  .about-me img {
+    width: 25vh;
+    height: 30vh;
+    padding-top: 0 !important;
+  }
+  .abt-content {
+    margin-top: 10px;
+  }
+
+  .aboutimgcard {
+    width: 15rem !important;
+    height: 18rem !important;
+    background-color: #0f0e17;
+    border: none;
+  }
+  .about-body {
+    width: 18rem !important;
+    height: 20rem !important;
+    margin-top: 5%;
+  }
+  .about-group {
+    padding-bottom: 20% !important;
+  }
+  .abt-content {
+    margin-left: 30% !important;
+  }
+  .myjob {
+    display: none;
+  }
+
+  .portfolio-img {
+    padding-top: 10px;
+  }
+  .port-col {
+    margin-top: 10px;
+    width: 20rem;
+    left: 11rem;
+  }
+  form {
+    margin: auto;
+    padding-left: 5px;
+    width: 350px;
+  }
+  .contact-head h2 {
+    padding-bottom: 10px;
+    font-size: 2rem;
+  }
+  .footer a {
+    font-size: 10px;
+  }
+}
