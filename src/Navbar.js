@@ -1,5 +1,6 @@
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
 
 
@@ -13,7 +14,7 @@ const TheNav = () => {
   <Navbar.Collapse id="basic-navbar-nav">
 
     <Nav className="ml-auto all-link">
-      <Nav.Link id="link" href="/">Home</Nav.Link>
+      <Nav.Link id="link" href="/home">Home</Nav.Link>
       <Nav.Link id="link" href="/about">About</Nav.Link>
       <Nav.Link id="link" href="/portfolio">Portfolio</Nav.Link>
       <Nav.Link id="link" href="/contact">Contact</Nav.Link>

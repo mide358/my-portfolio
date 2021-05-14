@@ -74,6 +74,22 @@ a {
   padding: 0;
 }
 
+.image-container {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  position: fixed;
+}
+.image-cover {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0f0e17;
+  background-size: cover;
+  opacity: 0.7;
+}
+
 .btn-home {
   background-color: #ff8906;
   color: #fffffe;
