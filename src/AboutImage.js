@@ -8,7 +8,7 @@ const AboutImage = () => {
 
 
        <Card.Img  src={Portrait}className="about-img-top mypix mx-auto d-block" alt="..."  />
-    <Card.Text><h5 className="myjob">Software Developer</h5></Card.Text>
+    <Card.Text className="myjob">Software Developer</Card.Text>
 
     </Card>
    );

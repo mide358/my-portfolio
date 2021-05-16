@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 import PortfolioButton from './PortfolioButton'
 import Project1 from './images/prog1.png';
 import Project2 from './images/prog2.png';
-import Project3 from './images/prog3.png';
+import Project3 from './images/landingPage.png';
 import Project4 from './images/todo-app.png';
 import Project5 from './images/Iyimides-CV.png';
 import Project6 from './images/snapshot.png';
@@ -21,19 +21,22 @@ const Portfolio = () => {
           <Col lg={4}>
      <Card className="port-col" >
       <Card.Img src={Project1} className=" d-block portfolio-img" alt="..." />
-      <PortfolioButton url="https://digital-initiative-midew2.netlify.app/" />
+      <a target="_blank" rel='noreferrer' href="https://digital-initiative-midew2.netlify.app/"><PortfolioButton/></a>
+
       </Card>
       </Col>
       <Col lg={4}>
      <Card className="port-col" >
       <Card.Img src={Project2} className="d-block portfolio-img" alt="..."/>
-      <PortfolioButton url="https://digital-initiative-midew2-2.netlify.app/" />
+      <a id="test" target="_blank" rel='noreferrer' href="https://digital-initiative-midew2-2.netlify.app/"><PortfolioButton/></a>
+
         </Card>
         </Col>
         <Col lg={4}>
        <Card className="port-col" >
         <Card.Img src={Project3} className=" d-block portfolio-img" alt="..."/>
-        <PortfolioButton url="https://digital-initiative-midew3.netlify.app/" />
+        <a target="_blank" rel='noreferrer' href="https://team-human-torch.netlify.app/"><PortfolioButton/></a>
+
       </Card>
       </Col>
       </CardDeck>
@@ -44,19 +47,24 @@ const Portfolio = () => {
         <Col lg={4} >
       <Card className="port-col" >
       <Card.Img src={Project4} className=" d-block portfolio-img" alt="..."/>
-      <PortfolioButton url="https://mide-todo-app.netlify.app/"/>
+      <a target="_blank" rel='noreferrer' href="https://mide-todo-app.netlify.app/"><PortfolioButton/></a>
+
+
         </Card>
        </Col>
        <Col lg={4}>
        <Card className="port-col" >
         <Card.Img src={Project5} className=" d-block portfolio-img" alt="..."/>
-        <PortfolioButton url="https://mide358.github.io/iyimides-cv/"/>
+        <a target="_blank" rel='noreferrer' href="https://mide358.github.io/iyimides-cv/"><PortfolioButton/></a>
+
+
       </Card>
       </Col >
       <Col lg={4}>
      <Card className="port-col" >
       <Card.Img src={Project6} className=" d-block portfolio-img" alt= "..."/>
-      <PortfolioButton url="https://snapshot-design.netlify.app/"/>
+        <a target="_blank" rel='noreferrer' href="https://snapshot-design.netlify.app/"><PortfolioButton/></a>
+
       </Card>
       </Col>
       </CardDeck>

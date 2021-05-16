@@ -1,6 +1,10 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
+
+
+
 
 
 
@@ -8,16 +12,16 @@ import Nav from 'react-bootstrap/Nav';
 
 const TheNav = () => {
   return (
-    <Navbar className="navigation" bg="light" expand="lg">
+    <Navbar collapseOnSelect className="navigation" bg="light" expand="lg" >
   <Navbar.Brand style={{color:"#fffffe", fontSize:"2.1rem", fontWeight:'bolder'}} href="/about" >IYIMIDE</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
 
     <Nav className="ml-auto all-link">
-      <Nav.Link id="link" href="/home">Home</Nav.Link>
-      <Nav.Link id="link" href="/about">About</Nav.Link>
-      <Nav.Link id="link" href="/portfolio">Portfolio</Nav.Link>
-      <Nav.Link id="link" href="/contact">Contact</Nav.Link>
+      <Link id="link"  to="/" exact="true"  >Home</Link>
+      <Link  id="link" to="/about" >About </Link>
+      <Link  id="link" to="/portfolio" >Porfolio</Link>
+      <Link  id="link" to="/contact" >Contact</Link>
 
     </Nav>
   </Navbar.Collapse>
