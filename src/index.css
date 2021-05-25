@@ -42,11 +42,14 @@ a {
   line-height: 2;
   padding-bottom: 5%;
 }
+#bground {
+  background: rgba(10, 10, 10, 0.4);
+}
 .homeImg {
   max-height: 100%;
 }
 .home-text h1 > span {
-  color: #fffffe;
+  color: #ff8906;
   background: rgba(10, 10, 10, 0.3);
   border-radius: 4px;
   font-size: 1.2em;
@@ -54,7 +57,7 @@ a {
   letter-spacing: 0.1em;
 }
 .home-text p {
-  color: #a7a9be !important;
+  color: white !important;
   display: block;
   font-size: 1.3rem;
   font-weight: lighter;
@@ -86,9 +89,9 @@ a {
 .image-cover {
   width: 100vw;
   height: 100vh;
-  background-color: #0f0e17;
+  /* background-color: #0f0e17; */
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.3;
 }
 
 .btn-home {
@@ -165,7 +168,7 @@ a {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 .portfolio-main h2 {
   text-align: center;
@@ -175,9 +178,8 @@ a {
   color: #fffffe;
 }
 
-#test a {
-  text-decoration: none;
-  color: red !important;
+.port-col a {
+  color: teal;
 }
 .port-row {
   margin: 0;
@@ -188,7 +190,7 @@ a {
   margin: 0;
   opacity: 0.9;
 }
-.port-col:hover {
+.port-col a:hover {
   border: 2px solid #0f0e17;
   text-decoration: none;
 }
@@ -217,13 +219,13 @@ a {
   margin: auto;
   color: #0f0e17;
 }
-.btn-port a {
+.btn-port button {
   font-weight: lighter;
   padding-top: 5px;
   padding-bottom: 5px;
   text-transform: uppercase;
-  color: #fffffe;
-  font-size: 1.2rem;
+  color: white;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 /* contact styling */
@@ -231,35 +233,36 @@ a {
   padding-top: 5%;
   text-align: center;
 }
-form {
+.contact-main {
   padding-top: 5%;
-  padding-right: 30px;
+  height: 100vh;
+  background-color: #1b1a22;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .contact-head h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bolder;
-  color: #0f0e17;
-}
-#form-border:hover {
-  border: 2px solid #2e2f3e;
+  color: white;
 }
 
-.contact-btn {
+.contact-head h2 > span {
+  color: #ff8906;
+}
+
+.contact-me {
+  margin-top: 4rem;
+}
+.contact-text {
+  padding-top: 2rem;
+  text-align: center;
   background-color: #ff8906;
   border: 2px solid #0f0e17;
-  margin-top: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 18px;
-}
-.contact-btn:hover {
-  background-color: #0f0e17;
-  border: 2px solid #ff8906;
-  margin-top: 19px;
-  padding-top: 7px;
-  padding-bottom: 5px;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .footer {
@@ -424,13 +427,16 @@ form {
     padding: 0 0.4rem;
   }
 
-  .contact-form {
-    margin-left: 20px;
-  }
   .contact-head h2 {
     font-size: 1.8rem;
     font-weight: bolder;
     padding-bottom: 10px;
+  }
+  .contact-text {
+    width: 18rem !important;
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
   }
 }
 
@@ -482,15 +488,15 @@ form {
     width: 20rem;
     left: 11rem;
   }
-  form {
-    margin: auto;
-    padding-left: 5px;
-    width: 350px;
-  }
+
   .contact-head h2 {
     padding-bottom: 10px;
     font-size: 2rem;
   }
+  .contact-text {
+    margin: auto;
+  }
+
   .footer a {
     font-size: 10px;
   }

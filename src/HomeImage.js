@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 
 const HomeImage = () => {
   return (
-    <Container fluid className="image-container" style={{backgroundColor:'#2e2f3e'}}>
+    <Container fluid className="image-container" style={{backgroundColor:' #0f0e17', opacity: ''}}>
       <img  src={Background} alt="..." className="image-cover" />
 
 

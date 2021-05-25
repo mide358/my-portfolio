@@ -1,34 +1,40 @@
 import React from 'react';
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
 
 const Contact = () => {
   return (
 
-     <Form>
+    <Container fluid className="contact-main">
+       <Row >
+         <Col className="contact-head"  lg={5}>
 
-       <Row>
-         <Col className="contact-head" lg={5}>
-
-         <h2>Get in Touch</h2>
+         <h2>Get in <span>Touch</span></h2>
          </Col>
 
-         <Col className="contact-form" lg={5}>
-         <Form.Control type="text" placeholder="Your name" id="form-border"/>
-         <br/>
-         <Form.Control type="email" placeholder="Email" id="form-border"/>
-         <br/>
-         <Form.Control as="textarea" rows={3} id="form-border"/>
+         <Col className="contact-me"  lg={5}>
+         <Card className="contact-text" style={{ width: '26rem', height:'5rem' }}>
+           <Card.Text>
+          Email: iyimide.adegunloye@gmail.com
+           </Card.Text>
 
-         <Button className="contact-btn" variant="primary" size="" block> Send</Button>
+         </Card>
+         <br></br>
+         <Card className="contact-text" style={{ width: '26rem', height:'5rem' }}>
+           <Card.Text>
+         Phone: +234 7057454542 /
+                +234 7080855800
+           </Card.Text>
+
+         </Card>
          </Col>
 
        </Row>
 
-     </Form>
 
+       </Container>
    );
 }
 

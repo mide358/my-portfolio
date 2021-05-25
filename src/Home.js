@@ -18,10 +18,11 @@
            </div>
 
     <div className="home-text carousel-caption" >
+      <div id="bground">
         <p id="first-text">Hi, my name is</p>
         <h1 className="home-title"><span>Iyimide Adegunloye</span></h1> <p> Welcome to my  website</p>
       <p id="second-text">I am a frontend web developer who creates beautiful and exceptional web sites!</p>
-
+      </div>
     <button href="/" type="button" variant="primary" className="btn-home btn-primary" onClick={() =>setButtonPopup  (true)}>See more</button>
         <Popup trigger={buttonPopup } setTrigger={setButtonPopup}>
         <div className="pop-details">
