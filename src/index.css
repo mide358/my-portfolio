@@ -6,6 +6,7 @@ html {
   width: 100%;
   margin: 0;
   padding: 0;
+  overflow: auto;
 }
 .all-link {
   margin-right: 5%;
@@ -40,7 +41,7 @@ a {
   color: #fff !important;
   display: block;
   line-height: 2;
-  padding-bottom: 5%;
+  padding-bottom: 6% !important;
 }
 #bground {
   background: rgba(10, 10, 10, 0.4);
@@ -59,12 +60,12 @@ a {
 .home-text p {
   color: white !important;
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: lighter;
 }
 #first-text {
-  font-size: 1rem;
-  font-weight: bold;
+  word-spacing: 2px;
+  font-size: 1.2rem;
 }
 #second-text {
   font-size: 1.9rem;
@@ -99,14 +100,16 @@ a {
   color: #fffffe;
   border-color: #ff8906;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   font-weight: bold;
-  padding: 15px;
+  padding: 8px 15px;
   font-size: 1.5rem;
+  border-radius: 4px !important;
 }
 .btn-home:hover {
   background-color: #a7a9be;
   border: 1px solid #ff8906;
+  border-radius: 4px;
 }
 .btn-home a:link {
   text-decoration: none;
@@ -114,7 +117,7 @@ a {
 
 /* styling the about page */
 .about-group {
-  margin: 0;
+  margin-top: 5% !important;
   padding-top: 40px;
 }
 .about-me {
@@ -347,19 +350,21 @@ a {
     font-size: 1rem;
     font-weight: 200;
     line-height: 1.2;
-    background: rgba(10, 10, 10, 0.3);
-    padding-bottom: 30%;
+    margin-bottom: 7%;
   }
   .home-text p {
+    padding-top: 10px !important;
     font-size: 0.9rem;
   }
   #first-text {
     font-size: 0.7rem;
+    font-weight: 300 !important;
   }
   #second-text {
     font-size: 1rem;
-    font-weight: lighter;
-    padding-bottom: 0;
+    font-weight: lighter !important;
+    padding-bottom: 10px;
+    line-height: 1.2rem;
   }
   .btn-home {
     padding: 10px;
@@ -367,6 +372,7 @@ a {
     margin-top: 20px;
     background-color: #ff8906;
     border: 1px solid #a7a9be;
+    margin-bottom: 20px;
   }
   .popup-box {
     top: 35%;
@@ -410,9 +416,7 @@ a {
     padding-bottom: 20% !important;
     justify-content: center !important;
   }
-  .abt-content {
-    margin: auto;
-  }
+
   .myjob {
     margin-top: 0;
   }
@@ -442,13 +446,17 @@ a {
 
 @media only screen and (min-width: 768px) and (max-width: 968px) {
   .home-text {
-    padding-bottom: 8%;
+    margin-top: 20% !important;
   }
   .home-text h1 > span {
     font-size: 0.7em;
   }
   #second-text {
     font-size: 1.5rem;
+  }
+  .btn-home {
+    font-size: 1rem;
+    margin-top: 20px;
   }
   .about-me img {
     width: 25vh;
@@ -460,22 +468,21 @@ a {
   }
 
   .aboutimgcard {
+    margin-top: 10%;
     width: 15rem !important;
     height: 18rem !important;
     background-color: #0f0e17;
     border: none;
   }
   .about-body {
-    width: 18rem !important;
+    width: 20rem !important;
     height: 32rem !important;
     margin-top: 5%;
   }
   .about-group {
     padding-bottom: 20% !important;
   }
-  .abt-content {
-    margin-left: 30% !important;
-  }
+
   .myjob {
     display: none;
   }
