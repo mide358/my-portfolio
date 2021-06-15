@@ -418,8 +418,7 @@ a {
   }
 
   .myjob {
-    margin-top: 0;
-    margin-bottom: 10px;
+    display: none;
   }
   .footer a {
     font-size: 7px;
