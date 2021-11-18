@@ -1,21 +1,22 @@
-import React from "react";
-import Container from "react-bootstrap/Container";
-import Card from "react-bootstrap/Card";
-import CardDeck from "react-bootstrap/CardDeck";
-import Col from "react-bootstrap/Col";
-import PortfolioButton from "./PortfolioButton";
-import Project1 from "./images/weather.png";
-import Project2 from "./images/prog2.png";
-import Project3 from "./images/prog1.png";
-import Project4 from "./images/todo-app.png";
-import Project5 from "./images/Iyimides-CV.png";
-import Project6 from "./images/snapshot.png";
+import React from 'react'
+// import Container from "react-bootstrap/Container";
+// import Card from "react-bootstrap/Card";
+// import CardDeck from "react-bootstrap/CardDeck";
+// import Col from "react-bootstrap/Col";
+import { Card, CardDeck, Col, Container } from 'react-bootstrap'
+import PortfolioButton from './PortfolioButton'
+import Project1 from './images/weather.png'
+import Project2 from './images/prog2.png'
+import Project3 from './images/prog1.png'
+import Project4 from './images/todo-app.png'
+import Project5 from './images/Iyimides-CV.png'
+import Project6 from './images/snapshot.png'
 const Portfolio = () => {
   return (
     <Container
       fluid
       className="portfolio-main mt-5"
-      style={{ backgroundColor: "#2e2f3e" }}
+      style={{ backgroundColor: '#2e2f3e' }}
     >
       <h2 className="d-none d-md-block pt-5">Portfolio</h2>
 
@@ -27,6 +28,9 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
+            <Card.Text className="card-text">
+              A weather app built with react js
+            </Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
@@ -43,6 +47,7 @@ const Portfolio = () => {
               className="d-block portfolio-img"
               alt="..."
             />
+            <Card.Text className="card-text"> Google website clone </Card.Text>
             <a
               id="test"
               target="_blank"
@@ -60,6 +65,7 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
+            <Card.Text className="card-text"> A blog site</Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
@@ -81,6 +87,7 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
+            <Card.Text className="card-text">A To-Do app</Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
@@ -97,6 +104,9 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
+            <Card.Text className="card-text">
+              My curriculum Vitae(CV) in html and css
+            </Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
@@ -113,6 +123,7 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
+            <Card.Text className="card-text">A website clone</Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
@@ -124,7 +135,7 @@ const Portfolio = () => {
         </Col>
       </CardDeck>
     </Container>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import HomeImage from "./HomeImage";
-import Popup from "./Popup";
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import HomeImage from './HomeImage'
+import Popup from './Popup'
 
 const Home = () => {
-  const [buttonPopup, setButtonPopup] = useState(false);
+  const [buttonPopup, setButtonPopup] = useState(false)
 
   return (
     <div className="container">
@@ -17,11 +17,15 @@ const Home = () => {
           <p id="first-text">Hi, my name is</p>
           <h1 className="home-title">
             <span>Iyimide Adegunloye</span>
-          </h1>{" "}
+          </h1>{' '}
           <p> Welcome to my website</p>
           <p id="second-text">
-            I am a frontend web developer who creates beautiful and exceptional
-            web sites!
+            {/* I am a frontend web developer who creates beautiful and exceptional
+            web sites! */}
+            I am a Front-End developer who specializes in creating exceptional
+            and dynamic user experiences, responsive web pages and web
+            applications. I work with JavaScript and React JS, Bootstrap, HTML
+            and CSS.
           </p>
         </div>
         <button
@@ -43,7 +47,7 @@ const Home = () => {
         </Popup>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

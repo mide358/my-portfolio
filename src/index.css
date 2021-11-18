@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   height: 100%;
   width: 100%;
@@ -215,6 +215,12 @@ a {
   border: 2px solid #ff8906;
 }
 
+.card-text {
+  color: white;
+  margin: auto;
+  padding-top: 5px;
+}
+
 .btn-port {
   width: 90%;
   padding-top: 5px;
@@ -282,6 +288,7 @@ a {
 
 .copyright {
   margin-left: auto;
+  right: 2rem;
 }
 .foot {
   bottom: 0;
@@ -317,7 +324,9 @@ a {
   position: absolute;
   top: 16px;
   right: 16px;
-  font-size: 20px;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
   background-color: #0f0e17;
   color: white;
 }
