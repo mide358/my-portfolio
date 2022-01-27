@@ -5,12 +5,12 @@ import React from 'react'
 // import Col from "react-bootstrap/Col";
 import { Card, CardDeck, Col, Container } from 'react-bootstrap'
 import PortfolioButton from './PortfolioButton'
-import Project1 from './images/weather.png'
-import Project2 from './images/prog2.png'
-import Project3 from './images/prog1.png'
-import Project4 from './images/todo-app.png'
-import Project5 from './images/Iyimides-CV.png'
-import Project6 from './images/snapshot.png'
+import Project1 from '../images/weather.png'
+import Project2 from '../images/prog2.png'
+import Project3 from '../images/prog1.png'
+import Project4 from '../images/todo-app.png'
+import Project5 from '../images/Iyimides-CV.png'
+import Project6 from '../images/snapshot.png'
 const Portfolio = () => {
   return (
     <Container

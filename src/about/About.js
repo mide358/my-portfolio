@@ -1,8 +1,8 @@
-import React from "react";
-import AboutImage from "./AboutImage";
-import AboutContent from "./AboutContent";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import React from 'react'
+import AboutImage from './AboutImage'
+import AboutContent from './AboutContent'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
         <AboutContent />
       </Col>
     </Row>
-  );
-};
+  )
+}
 
-export default About;
+export default About
