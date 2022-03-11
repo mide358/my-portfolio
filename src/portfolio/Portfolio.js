@@ -1,16 +1,16 @@
-import React from 'react'
+import React from 'react';
 // import Container from "react-bootstrap/Container";
 // import Card from "react-bootstrap/Card";
 // import CardDeck from "react-bootstrap/CardDeck";
 // import Col from "react-bootstrap/Col";
-import { Card, CardDeck, Col, Container } from 'react-bootstrap'
-import PortfolioButton from './PortfolioButton'
-import Project1 from '../images/weather.png'
-import Project2 from '../images/prog2.png'
-import Project3 from '../images/prog1.png'
-import Project4 from '../images/todo-app.png'
-import Project5 from '../images/Iyimides-CV.png'
-import Project6 from '../images/snapshot.png'
+import { Card, CardDeck, Col, Container } from 'react-bootstrap';
+import PortfolioButton from './PortfolioButton';
+import Project1 from '../images/weather.png';
+import Project2 from '../images/recipe2.png';
+import Project3 from '../images/rccg.png';
+import Project4 from '../images/todo-app.png';
+import Project5 from '../images/customer.png';
+import Project6 from '../images/loan.png';
 const Portfolio = () => {
   return (
     <Container
@@ -44,15 +44,14 @@ const Portfolio = () => {
           <Card className="port-col">
             <Card.Img
               src={Project2}
-              className="d-block portfolio-img"
+              className=" d-block portfolio-img"
               alt="..."
             />
-            <Card.Text className="card-text"> Google website clone </Card.Text>
+            <Card.Text className="card-text">A Recipe App</Card.Text>
             <a
-              id="test"
               target="_blank"
               rel="noreferrer"
-              href="https://digital-initiative-midew2-2.netlify.app/"
+              href="https://freshfoodzone.netlify.app/"
             >
               <PortfolioButton />
             </a>
@@ -65,11 +64,11 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
-            <Card.Text className="card-text"> A blog site</Card.Text>
+            <Card.Text className="card-text"> A website</Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://digital-initiative-midew2.netlify.app/"
+              href="https://rccgroyalfamily.com/"
             >
               <PortfolioButton />
             </a>
@@ -104,13 +103,11 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
-            <Card.Text className="card-text">
-              My curriculum Vitae(CV) in html and css
-            </Card.Text>
+            <Card.Text className="card-text">A CRUD App</Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://mide358.github.io/iyimides-cv/"
+              href="https://customer-care-app.netlify.app/"
             >
               <PortfolioButton />
             </a>
@@ -123,11 +120,11 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
-            <Card.Text className="card-text">A website clone</Card.Text>
+            <Card.Text className="card-text">A loan App</Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://snapshot-design.netlify.app/"
+              href="https://loan-app-mide.netlify.app/"
             >
               <PortfolioButton />
             </a>
@@ -135,7 +132,7 @@ const Portfolio = () => {
         </Col>
       </CardDeck>
     </Container>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
