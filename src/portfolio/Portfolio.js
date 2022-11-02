@@ -9,7 +9,7 @@ import Project1 from '../images/weather.png';
 import Project2 from '../images/recipe2.png';
 import Project3 from '../images/rccg.png';
 import Project4 from '../images/todo-app.png';
-import Project5 from '../images/customer.png';
+import Project5 from '../images/Movie-Watchlist.png';
 import Project6 from '../images/loan.png';
 const Portfolio = () => {
   return (
