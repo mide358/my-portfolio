@@ -34,7 +34,7 @@ const Portfolio = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://grp2-weather.netlify.app/"
+              href="https://weatherappbymide.netlify.app/"
             >
               <PortfolioButton />
             </a>
@@ -103,11 +103,11 @@ const Portfolio = () => {
               className=" d-block portfolio-img"
               alt="..."
             />
-            <Card.Text className="card-text">A CRUD App</Card.Text>
+            <Card.Text className="card-text">A Movie Watchlist App</Card.Text>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://customer-care-app.netlify.app/"
+              href="https://movie-watchlist-mide.netlify.app/"
             >
               <PortfolioButton />
             </a>
